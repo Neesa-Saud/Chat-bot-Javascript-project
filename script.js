@@ -77,7 +77,22 @@ const handleChat =()=>{
             }
              if(userMessage==="Who is Ritik")
                 {
-                    setTimeout(()=> chatbox.appendChild(createChatLi("Ritik is guu khane vaiso , very very pelyaa khane  boy of LBA","incoming"))
+                    setTimeout(()=> chatbox.appendChild(createChatLi("He is brother of Narad Saud "))
+                ,2000);
+                }
+    if(userMessage==="Hello")
+                {
+                    setTimeout(()=> chatbox.appendChild(createChatLi("Hi ,How are you ? How can I help you"))
+                ,2000);
+                }
+    if(userMessage==="I am sad")
+                {
+                    setTimeout(()=> chatbox.appendChild(createChatLi("Don't be sad , just enjoy your life fully , keep yourself motivated")) 
+                ,2000);
+                }
+    if(userMessage==="Thank you")
+                {
+                    setTimeout(()=> chatbox.appendChild(createChatLi("It's my pleasure !!! Any other problems ?"))
                 ,2000);
                 }
 };
